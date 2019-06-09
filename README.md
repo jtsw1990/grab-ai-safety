@@ -34,3 +34,4 @@ Modelling exercise for Grab AI Challenge: Safety dataset
     - Speed
     - Acceleration
     - Gyro
+- Used sosme feature engineering ideas from an SJSU thesis on driver telematics analysis (here)[https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1394&context=etd_projects].
