@@ -34,4 +34,12 @@ Modelling exercise for Grab AI Challenge: Safety dataset
     - Speed
     - Acceleration
     - Gyro
-- Used sosme feature engineering ideas from an SJSU thesis on driver telematics analysis (here)[https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1394&context=etd_projects].
+- Used sosme feature engineering ideas from an SJSU thesis on driver telematics analysis [here](https://scholarworks.sjsu.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1394&context=etd_projects)
+
+### Chosen features
+- Distance travelled: This gives the total length of a trip in meters. This is calculated as:
+$(time_{t} - time_{t-1}) * speed$
+
+- Max acceleration: Max of x, y ,z accelerometer readings.
+- Max gyro: Max of x, y ,z gyro readings.
+- Bearing_diff: The change in bearing between each reading. A big change would signifiy a sharp turn? (maybe)
