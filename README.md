@@ -40,6 +40,15 @@ Modelling exercise for Grab AI Challenge: Safety dataset
 - Distance travelled: This gives the total length of a trip in meters. This is calculated as:
 $(time_{t} - time_{t-1}) * speed$
 
-- Max acceleration: Max of x, y ,z accelerometer readings.
-- Max gyro: Max of x, y ,z gyro readings.
-- Bearing_diff: The change in bearing between each reading. A big change would signifiy a sharp turn? (maybe)
+- Duration of trip: Measured in Seconds and taken from the last recorded entry per booking
+- Gyro, Acceleration, Speed, Change in bearing
+    - Maximum
+    - Minimum
+    - Mean
+    - 10, 30, 70, 90 percentile,
+    - Standard deviation
+
+### Model
+- GBM
+- First few attempts showed consistent training and testing accuracy but both at low values of ~77%. This shows signs of underfitting.
+- Iteration involved feature engineering before cycling through models.
