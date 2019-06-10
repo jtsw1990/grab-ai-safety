@@ -48,7 +48,9 @@ $(time_{t} - time_{t-1}) * speed$
     - 10, 30, 70, 90 percentile,
     - Standard deviation
 
-### Model
-- GBM
+### Notes
+- Models tried: GBM, Random Forests, Neural Networks, Logistic Regression
 - First few attempts showed consistent training and testing accuracy but both at low values of ~77%. This shows signs of underfitting.
 - Iteration involved feature engineering before cycling through models.
+- Tried polynomial features to increase the accuracy but not effective.
+- Noticed a degree of class imbalance between 0 and 1 from the confusion matrix results and overall base accuracy. Try up-sampling the minority class.
