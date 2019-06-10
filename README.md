@@ -54,3 +54,5 @@ $(time_{t} - time_{t-1}) * speed$
 - Iteration involved feature engineering before cycling through models.
 - Tried polynomial features to increase the accuracy but not effective.
 - Noticed a degree of class imbalance between 0 and 1 from the confusion matrix results and overall base accuracy. Try up-sampling the minority class.
+    - Resampling data dropped accuracy from 78% to 68% as expected.
+    - However, AUC score improved which suggests better results over different decision thresholds.
