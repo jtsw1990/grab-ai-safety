@@ -34,6 +34,7 @@ Modelling exercise for Grab AI Challenge: Safety dataset
 ### Exploratory Data Analysis
 - A high-level view shows that not all the features are useful in prediction the safety category
 - Also, there are 18 duplicated labels. WHether or not they are supposed to be dangerous or safe is unknown and will be taken out of the dataset for modelling purposes
+- Some bookings show extremely long trips which may not make sense?
 - Distribution plots show some differences between the categories for:
     - Speed
     - Acceleration
