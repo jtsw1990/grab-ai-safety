@@ -46,7 +46,7 @@ Modelling exercise for Grab AI Challenge: Safety dataset
 
 - Duration of trip: Measured in Seconds and taken from the last recorded entry per booking
 - Acceleration, Gyro: X, Y and Z figures are combined into a single datapoint using Euclidean distance:
-    - sqrt( x**2 + y**2 + z**2 )
+    - sqrt( x^2 + y^2 + z^2 )
     
 - Gyro, Acceleration, Speed, Change in bearing
     - Maximum per trip
