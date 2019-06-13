@@ -64,3 +64,6 @@ Modelling exercise for Grab AI Challenge: Safety dataset
     - Resampling data dropped accuracy from 78% to 68% as expected
     - However, AUC score improved which suggests better results over different decision thresholds
     - Trying to avoid upsampling as it may cause some bias in results. Use sample weights instead
+ - Realised that there are data leakage issues in the current model with outlier conditions and aggregations. To restructure process to minimize this.
+     - Split data into training and testing before performing any feature extractions
+     - Choose a more robust condition for second outliers instead of using the full dataset. (That was dumb) 
