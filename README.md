@@ -17,7 +17,7 @@ Modelling exercise for Grab AI Challenge: Safety dataset
 1. Download dependancies required with `pip install requirements.txt`    
 2. For evaluation of model, please open `5. Grab Safety - Submission Notebook` and edit the `SOURCE_LIST` list to include all the paths of the feature data.
 3. Once `SOURCE_LIST` is updated, just run the all cells in the kernel and predictions will be stored in the global variable `preds`.
-4. Depending on requirements, a to_csv command has been commented out.
+4. Depending on requirements, a `pd.to_csv` command has been commented out.
 
 
 ### Project Plan
