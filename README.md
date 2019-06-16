@@ -84,6 +84,7 @@ Modelling exercise for Grab AI Challenge: Safety dataset
     - Logistic Regression
     - Random Forests
 - All 3 models show signs of underfitting with lower than desired training and testing accuracy.
+- Current notebook doesn't show the selected model. Selected model used is a Gradient Boosted Machine with a 74% auc score with a microsecond timestamp of 87995.
 
 ## References
 
